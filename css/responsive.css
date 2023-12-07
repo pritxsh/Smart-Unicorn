@@ -1,0 +1,49 @@
+@media only screen and (max-width: 1112px){
+    .nav-list{
+      flex-direction: column;
+    }
+    .navbar{
+      flex-direction: column;
+      height: 478px;
+      transition: all 0.5s ease-out;
+     
+    }
+    .rightNav{
+      text-align: center;
+    }
+   #search{
+    width: 100%;
+   }
+   .burger{
+      display: block;
+   }
+   .nav-height-resp{
+    height: 52px;
+   
+   }
+   .v-class-resp{
+    opacity: 0;
+   }
+   .box-main{
+     flex-direction: column-reverse;
+     width: 100%;
+     padding: 75px 0;
+     text-align: center;
+   }
+   
+   .section{
+     flex-direction: column-reverse;
+     text-align: center;
+     margin-top: 40px;
+   }
+   .paras{
+    padding: 0;
+    margin-top: 10px;
+   }
+   .sectionSubTag{
+    text-align: justify;
+   }
+   .firstSection{
+    height: 100%;
+  }
+   }
