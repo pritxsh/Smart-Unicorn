@@ -51,7 +51,7 @@ html{
 }
 
 .nav-list li a:hover{
-    color: wheat;
+    color: coral;
   }
 
 .rightNav{
@@ -67,7 +67,7 @@ html{
 #search{
     padding: 5px;
     font-size: 18px;
-       border-radius: 9px;
+    border-radius: 15px;
        border: none;
       
 }
@@ -76,10 +76,16 @@ html{
   padding: 8px 20px;
   background: transparent;
   border: 2px solid white;
-  border-radius: 8px;
+  border-radius: 15px;
   color: white;
   margin: 7px 3px;
   font-size: 15px;
+}
+
+.btn:hover{
+  color: black;
+  background: white;
+  transition: all 0.3s ease-out;
 }
 
 .btn-sm{
@@ -87,10 +93,16 @@ html{
   vertical-align: middle;
 }
 .btn-dark{
-  color: grey;
-  border: 2px solid grey;
-    /* position: absolute;
-    left: 47%; */
+  color: rgba(0, 0, 0, 0.607);
+  border: 2px solid rgba(0, 0, 0, 0.607); 
+  
+}
+
+.btn-dark:hover{
+  color: white;
+  border: 2px solid rgba(0, 0, 0, 0.669);
+  background: rgba(0, 0, 0, 0.669);
+  transition: all 0.3s ease-out;
 }
 
 .background{
@@ -101,8 +113,8 @@ html{
 }
 
 section.background{
-  border-radius: 0 0 10px 10px;
-  box-shadow: 0px 8px 10px -1px gray;
+  border-radius: 0 0 15px 15px;
+  box-shadow: 0px 12px 20px -1px gray;
 }
 
 .firstSection{
@@ -128,6 +140,8 @@ section.background{
   flex-direction: column;
   margin-right: 10px;
 }
+
+
 .secondHalf{
    width: 30%;
   
@@ -141,10 +155,23 @@ section.background{
 } 
 
 .text-big{
-  font-size: 40px;
+  font-size: 39px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.text-big:hover{
+  color: rgb(255, 127, 80);
+  transition: all 0.3s ease-out;
 }
 .text-small{
  font-size: 17px;
+ margin-bottom: 10px;
+}
+
+.text-small:hover{
+  color: rgb(255, 127, 80);
+  transition: all 0.3s ease-out;
 }
 
 .section{
@@ -196,11 +223,14 @@ section.background{
   padding: 30px;
   font-family: 'Ubuntu', sans-serif;
   font-size: 30px;
+ 
 }
+
 
 .form{
   max-width: 60%;
   margin: 10px auto;
+  text-align: center;
   
  
 }
@@ -208,6 +238,8 @@ section.background{
   margin: 15px 0;
   padding: 5px 3px;
   width: 100%;
+  border: 1px solid black;
+  outline: none;
   font-size: 16px;
   border-radius: 5px;
  }
@@ -232,8 +264,8 @@ section.background{
     width: 33px;
     background-color: white;
     height: 3px;
-    margin: 5px 3px;
-    
-   
+    margin: 5px 3px;    
  }
+
+
  
